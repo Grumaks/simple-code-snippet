@@ -1,0 +1,20 @@
+.code-view-line {
+    .code {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .line-number {
+        user-select: none;
+        text-align: right;
+        color: #aaa;
+        width: 1%;
+        min-width: 50px;
+        padding-left: 5px;
+        padding-top: 5px;
+
+        &::before {
+            content: attr(data-line-number);
+        }
+    }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CodeSnippetHeader component Should render correctly 1`] = `
+<Memo(CodeSnippetHeader)
+  copyAll={[MockFunction]}
+  owner="test"
+  path="test"
+  repo="test"
+  showAll={[MockFunction]}
+  showButtons={true}
+>
+  <div
+    className="code-snippet-header"
+  >
+    <a
+      href="https://github.com/test/test/blob/master/test"
+      rel="noreferrer"
+      target="_blank"
+    >
+      test
+    </a>
+    <button
+      className="code-snippet-header-button right"
+      data-marker="showall"
+      onClick={[MockFunction]}
+    >
+      Показать все
+    </button>
+    <button
+      className="code-snippet-header-button"
+      onClick={[MockFunction]}
+    >
+      Копировать все
+    </button>
+  </div>
+</Memo(CodeSnippetHeader)>
+`;

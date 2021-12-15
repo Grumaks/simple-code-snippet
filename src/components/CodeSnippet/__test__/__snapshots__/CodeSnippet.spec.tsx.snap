@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CodeSnippet component Should render correctly 1`] = `
+<CodeSnippet
+  artifactLocation={
+    Object {
+      "owner": "JetBrains",
+      "path": "components/alert-service/alert-service.js",
+      "repo": "ring-ui",
+    }
+  }
+  content={
+    Array [
+      " sameAlert.isShaking = true;",
+      " this.renderAlerts();",
+      " this.stopShakingWhenAnimationDone(sameAlert);",
+    ]
+  }
+  language="JavaScript"
+  startLine={83}
+>
+  <div
+    className="code-snippet"
+  >
+    <Memo(CodeSnippetHeader)
+      copyAll={[Function]}
+      owner="JetBrains"
+      path="components/alert-service/alert-service.js"
+      repo="ring-ui"
+      showAll={[Function]}
+      showButtons={false}
+    >
+      <div
+        className="code-snippet-header"
+      >
+        <a
+          href="https://github.com/JetBrains/ring-ui/blob/master/components/alert-service/alert-service.js"
+          rel="noreferrer"
+          target="_blank"
+        >
+          alert-service.js
+        </a>
+      </div>
+    </Memo(CodeSnippetHeader)>
+    <CodeView
+      content={
+        Array [
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          ,
+          " sameAlert.isShaking = true;",
+          " this.renderAlerts();",
+          " this.stopShakingWhenAnimationDone(sameAlert);",
+        ]
+      }
+      endLine={85}
+      language="JavaScript"
+      startLine={83}
+    >
+      <div
+        className="code-view"
+      >
+        <table
+          className="content"
+        >
+          <tbody>
+            <Memo(CodeViewLine)
+              content=" sameAlert.isShaking = true;"
+              key="82"
+              language="JavaScript"
+              lineNumber={83}
+            >
+              <tr
+                className="code-view-line"
+              >
+                <td
+                  className="line-number"
+                  data-line-number={83}
+                />
+                <td
+                  className="code"
+                >
+                  <SyntaxHighlighter
+                    customStyle={
+                      Object {
+                        "background": undefined,
+                        "overflow": undefined,
+                        "padding": undefined,
+                      }
+                    }
+                    language="javascript"
+                    style={
+                      Object {
+                        "hljs": Object {
+                          "background": "#f8f8ff",
+                          "color": "#000",
+                          "display": "block",
+                          "overflowX": "auto",
+                          "padding": "0.5em",
+                        },
+                        "hljs-addition": Object {
+                          "background": "#dfd",
+                        },
+                        "hljs-attribute": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-built_in": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-builtin-name": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-bullet": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-comment": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-deletion": Object {
+                          "background": "#fdd",
+                        },
+                        "hljs-doctag": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-emphasis": Object {
+                          "fontStyle": "italic",
+                        },
+                        "hljs-keyword": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-link": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-literal": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-meta": Object {
+                          "color": "#999",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-name": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-number": Object {
+                          "color": "#40a070",
+                        },
+                        "hljs-params": Object {
+                          "color": "#00f",
+                        },
+                        "hljs-quote": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-regexp": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-section": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-class": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-id": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-tag": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-string": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-strong": Object {
+                          "fontWeight": "bold",
+                        },
+                        "hljs-subst": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-symbol": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-tag": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-template-variable": Object {
+                          "color": "#008080",
+                        },
+                        "hljs-title": Object {
+                          "color": "#458",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-type": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-variable": Object {
+                          "color": "#008080",
+                        },
+                      }
+                    }
+                  >
+                    <pre
+                      style={
+                        Object {
+                          "background": undefined,
+                          "color": "#000",
+                          "display": "block",
+                          "overflow": undefined,
+                          "overflowX": "auto",
+                          "padding": undefined,
+                        }
+                      }
+                    >
+                      <code
+                        className="language-javascript"
+                        style={
+                          Object {
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        <span
+                          key="code-segement0"
+                          style={Object {}}
+                        >
+                           sameAlert.isShaking = 
+                        </span>
+                        <span
+                          key="code-segement1"
+                          style={
+                            Object {
+                              "color": "#954121",
+                            }
+                          }
+                        >
+                          true
+                        </span>
+                        <span
+                          key="code-segement2"
+                          style={Object {}}
+                        >
+                          ;
+                        </span>
+                      </code>
+                    </pre>
+                  </SyntaxHighlighter>
+                </td>
+              </tr>
+            </Memo(CodeViewLine)>
+            <Memo(CodeViewLine)
+              content=" this.renderAlerts();"
+              key="83"
+              language="JavaScript"
+              lineNumber={84}
+            >
+              <tr
+                className="code-view-line"
+              >
+                <td
+                  className="line-number"
+                  data-line-number={84}
+                />
+                <td
+                  className="code"
+                >
+                  <SyntaxHighlighter
+                    customStyle={
+                      Object {
+                        "background": undefined,
+                        "overflow": undefined,
+                        "padding": undefined,
+                      }
+                    }
+                    language="javascript"
+                    style={
+                      Object {
+                        "hljs": Object {
+                          "background": "#f8f8ff",
+                          "color": "#000",
+                          "display": "block",
+                          "overflowX": "auto",
+                          "padding": "0.5em",
+                        },
+                        "hljs-addition": Object {
+                          "background": "#dfd",
+                        },
+                        "hljs-attribute": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-built_in": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-builtin-name": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-bullet": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-comment": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-deletion": Object {
+                          "background": "#fdd",
+                        },
+                        "hljs-doctag": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-emphasis": Object {
+                          "fontStyle": "italic",
+                        },
+                        "hljs-keyword": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-link": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-literal": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-meta": Object {
+                          "color": "#999",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-name": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-number": Object {
+                          "color": "#40a070",
+                        },
+                        "hljs-params": Object {
+                          "color": "#00f",
+                        },
+                        "hljs-quote": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-regexp": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-section": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-class": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-id": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-tag": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-string": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-strong": Object {
+                          "fontWeight": "bold",
+                        },
+                        "hljs-subst": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-symbol": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-tag": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-template-variable": Object {
+                          "color": "#008080",
+                        },
+                        "hljs-title": Object {
+                          "color": "#458",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-type": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-variable": Object {
+                          "color": "#008080",
+                        },
+                      }
+                    }
+                  >
+                    <pre
+                      style={
+                        Object {
+                          "background": undefined,
+                          "color": "#000",
+                          "display": "block",
+                          "overflow": undefined,
+                          "overflowX": "auto",
+                          "padding": undefined,
+                        }
+                      }
+                    >
+                      <code
+                        className="language-javascript"
+                        style={
+                          Object {
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        <span
+                          key="code-segement0"
+                          style={Object {}}
+                        >
+                           
+                        </span>
+                        <span
+                          key="code-segement1"
+                          style={
+                            Object {
+                              "color": "#0086b3",
+                            }
+                          }
+                        >
+                          this
+                        </span>
+                        <span
+                          key="code-segement2"
+                          style={Object {}}
+                        >
+                          .renderAlerts();
+                        </span>
+                      </code>
+                    </pre>
+                  </SyntaxHighlighter>
+                </td>
+              </tr>
+            </Memo(CodeViewLine)>
+            <Memo(CodeViewLine)
+              content=" this.stopShakingWhenAnimationDone(sameAlert);"
+              key="84"
+              language="JavaScript"
+              lineNumber={85}
+            >
+              <tr
+                className="code-view-line"
+              >
+                <td
+                  className="line-number"
+                  data-line-number={85}
+                />
+                <td
+                  className="code"
+                >
+                  <SyntaxHighlighter
+                    customStyle={
+                      Object {
+                        "background": undefined,
+                        "overflow": undefined,
+                        "padding": undefined,
+                      }
+                    }
+                    language="javascript"
+                    style={
+                      Object {
+                        "hljs": Object {
+                          "background": "#f8f8ff",
+                          "color": "#000",
+                          "display": "block",
+                          "overflowX": "auto",
+                          "padding": "0.5em",
+                        },
+                        "hljs-addition": Object {
+                          "background": "#dfd",
+                        },
+                        "hljs-attribute": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-built_in": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-builtin-name": Object {
+                          "color": "#0086b3",
+                        },
+                        "hljs-bullet": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-comment": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-deletion": Object {
+                          "background": "#fdd",
+                        },
+                        "hljs-doctag": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-emphasis": Object {
+                          "fontStyle": "italic",
+                        },
+                        "hljs-keyword": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-link": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-literal": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-meta": Object {
+                          "color": "#999",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-name": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-number": Object {
+                          "color": "#40a070",
+                        },
+                        "hljs-params": Object {
+                          "color": "#00f",
+                        },
+                        "hljs-quote": Object {
+                          "color": "#408080",
+                          "fontStyle": "italic",
+                        },
+                        "hljs-regexp": Object {
+                          "color": "#b68",
+                        },
+                        "hljs-section": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-class": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-id": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-selector-tag": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-string": Object {
+                          "color": "#219161",
+                        },
+                        "hljs-strong": Object {
+                          "fontWeight": "bold",
+                        },
+                        "hljs-subst": Object {
+                          "color": "#954121",
+                        },
+                        "hljs-symbol": Object {
+                          "color": "#990073",
+                        },
+                        "hljs-tag": Object {
+                          "color": "#000080",
+                          "fontWeight": "normal",
+                        },
+                        "hljs-template-variable": Object {
+                          "color": "#008080",
+                        },
+                        "hljs-title": Object {
+                          "color": "#458",
+                          "fontWeight": "bold",
+                        },
+                        "hljs-type": Object {
+                          "color": "#19469d",
+                        },
+                        "hljs-variable": Object {
+                          "color": "#008080",
+                        },
+                      }
+                    }
+                  >
+                    <pre
+                      style={
+                        Object {
+                          "background": undefined,
+                          "color": "#000",
+                          "display": "block",
+                          "overflow": undefined,
+                          "overflowX": "auto",
+                          "padding": undefined,
+                        }
+                      }
+                    >
+                      <code
+                        className="language-javascript"
+                        style={
+                          Object {
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        <span
+                          key="code-segement0"
+                          style={Object {}}
+                        >
+                           
+                        </span>
+                        <span
+                          key="code-segement1"
+                          style={
+                            Object {
+                              "color": "#0086b3",
+                            }
+                          }
+                        >
+                          this
+                        </span>
+                        <span
+                          key="code-segement2"
+                          style={Object {}}
+                        >
+                          .stopShakingWhenAnimationDone(sameAlert);
+                        </span>
+                      </code>
+                    </pre>
+                  </SyntaxHighlighter>
+                </td>
+              </tr>
+            </Memo(CodeViewLine)>
+          </tbody>
+        </table>
+      </div>
+    </CodeView>
+    <button
+      className="full-width-button"
+      data-marker="loadcontent"
+      onClick={[Function]}
+    >
+      Догрузить файл
+    </button>
+  </div>
+</CodeSnippet>
+`;

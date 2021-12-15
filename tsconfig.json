@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig.json to read more about this file */
+        "lib": [
+            "DOM"
+        ],
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react",
+        "noEmit": true,
+        "importHelpers": true,
+        "sourceMap": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        //"declaration": true,
+        //"emitDeclarationOnly": true,
+    },
+    "include": [
+        "src",
+        "global.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.js"
+    ]
+}

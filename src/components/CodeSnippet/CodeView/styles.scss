@@ -1,0 +1,18 @@
+@import '../../../styles/variables.scss';
+
+$border: 1px solid #dcdcdc;
+
+.code-view {
+
+    border: $border;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    .content {
+        font-family: $code-font-family;
+        font-size: 12px;
+        border-collapse: collapse;
+        width: 100%;
+        line-height: 20px;
+    }
+}
