@@ -8,4 +8,4 @@ Simple code snippet. Use `react-syntax-highlighter`
 
 # Tests
 
-`npm run tests`
+`npm run test`
